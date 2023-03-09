@@ -36,7 +36,7 @@ Expected Output
 }
 ```
 
-4. Test if Client is able to connect to the instance
+5. Test if Client is able to connect to the instance
 
 ```bash
 python3 app.py # Make sure you edit the connection string inside the app.py file
