@@ -4,7 +4,7 @@
 
 ```bash
 helm repo add mongodb https://mongodb.github.io/helm-charts
-helm install mongo-operator mongodb/community-operator -n mongo-operator --create-namespace
+helm install mongo-operator mongodb/community-operator -n mongo-operator --create-namespace --set operator.watchNamespace="*"
 ```
 
 2. Apply a Sample Mongo DB Instance
